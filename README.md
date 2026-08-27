@@ -15,9 +15,10 @@
   <br><br>
 
   <!-- Social Badges & View Counter -->
-  <a href="https://linkedin.com/in/kalpshah"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
-  <a href="mailto:shahkalp0303@gmail.com"><img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"></a>
-  <a href="https://github.com/K1905-cpu"><img src="https://img.shields.io/badge/Location-Ahmedabad%2C%20India-10B981?style=for-the-badge&logo=googlemaps&logoColor=white" alt="Location"></a>
+  <a href="https://www.linkedin.com/in/kalp-shah-3024ab333/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
+  <a href="mailto:shahkalp0303@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"></a>
+  <a href="https://leetcode.com/u/b0e6CDjMKO/"><img src="https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black" alt="LeetCode"></a>
+  <a href="https://github.com/K1905-cpu"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"></a>
   <img src="https://komarev.com/ghpvc/?username=K1905-cpu&color=39d353&style=for-the-badge&label=PROFILE+VIEWS" alt="Profile Views">
 
 </div>
@@ -34,8 +35,9 @@ Hi, I'm **Kalp Shah**. A 3rd-year B.Tech IT student at Birla Vishvakarma Mahavid
 
 - 🤖 Aspiring **AI / Machine Learning Engineer** focused on PyTorch, TensorFlow, Computer Vision & NLP.
 - 🔭 Currently building **[Smart Student Hub](https://github.com/K1905-cpu/SmartStudentHub)** & intelligent predictive ML solutions.
+- 🧩 Practicing algorithmic problem solving on **[LeetCode](https://leetcode.com/u/b0e6CDjMKO/)**.
 - 🎓 Academic Standing: **3rd Year B.Tech IT** (CPI: 7.81 | Recent Sem SPI: 8.36).
-- ⚡ Deepening skills in **Data Science & ML (Python, Pandas, NumPy, Scikit-Learn)** & Algorithmic Problem Solving.
+- ⚡ Deepening skills in **Data Science & ML (Python, Pandas, NumPy, Scikit-Learn)**.
 - 🏆 Fun fact: **Goalkeeper & Football Tournament Champion (Jan 2026)**.
 
 <br>
