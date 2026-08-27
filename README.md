@@ -10,7 +10,7 @@
   <br>
 
   <!-- Animated Typing SVG Banner -->
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=26&duration=2600&pause=900&color=39D353&center=true&vCenter=true&width=650&lines=Kalp+Shah;AI+%26+ML+Developer;Data+Science+%26+Analytics;Building+Intelligent+ML+Systems;B.Tech+IT+%40+BVM+College" alt="Typing Banner">
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=26&duration=2600&pause=900&color=39D353&center=true&vCenter=true&width=650&lines=Kalp+Shah;Aspiring+AI%2FML+Developer;Data+Science+%26+Analytics;Building+Intelligent+ML+Systems;B.Tech+IT+%40+BVM+College" alt="Typing Banner">
 
   <br><br>
 
