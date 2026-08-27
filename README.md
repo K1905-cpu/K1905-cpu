@@ -2,9 +2,9 @@
 
   <!-- Dot Matrix Portrait -->
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="assets/portrait-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="assets/portrait-light.svg">
-    <img src="assets/portrait-dark.svg" width="280" alt="Kalp Shah Portrait">
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/K1905-cpu/K1905-cpu/main/assets/portrait-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/K1905-cpu/K1905-cpu/main/assets/portrait-light.svg">
+    <img src="https://raw.githubusercontent.com/K1905-cpu/K1905-cpu/main/assets/portrait-dark.svg" width="280" alt="Kalp Shah Portrait">
   </picture>
 
   <br>
@@ -17,7 +17,7 @@
   <!-- Social Badges & View Counter -->
   <a href="https://linkedin.com/in/kalpshah"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
   <a href="mailto:shahkalp0303@gmail.com"><img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"></a>
-  <a href="https://github.com/kalpshah"><img src="https://img.shields.io/badge/Location-Ahmedabad%2C%20India-10B981?style=for-the-badge&logo=googlemaps&logoColor=white" alt="Location"></a>
+  <a href="https://github.com/K1905-cpu"><img src="https://img.shields.io/badge/Location-Ahmedabad%2C%20India-10B981?style=for-the-badge&logo=googlemaps&logoColor=white" alt="Location"></a>
   <img src="https://komarev.com/ghpvc/?username=K1905-cpu&color=39d353&label=profile+views" alt="Profile Views">
 
 </div>
@@ -54,17 +54,17 @@ Hi, I'm **Kalp Shah**. A 3rd-year B.Tech IT student at Birla Vishvakarma Mahavid
     <td width="50%" align="center">
       <b>Self-Rated Core Skills</b><br><br>
       <picture>
-        <source media="(prefers-color-scheme: dark)" srcset="assets/radar-dark.svg">
-        <source media="(prefers-color-scheme: light)" srcset="assets/radar-light.svg">
-        <img src="assets/radar-dark.svg" width="400" alt="Self-Rated Skill Radar">
+        <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/K1905-cpu/K1905-cpu/main/assets/radar-dark.svg">
+        <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/K1905-cpu/K1905-cpu/main/assets/radar-light.svg">
+        <img src="https://raw.githubusercontent.com/K1905-cpu/K1905-cpu/main/assets/radar-dark.svg" width="400" alt="Self-Rated Skill Radar">
       </picture>
     </td>
     <td width="50%" align="center">
       <b>Honest Codebase Language Bytes</b><br><br>
       <picture>
-        <source media="(prefers-color-scheme: dark)" srcset="assets/radar-langs-dark.svg">
-        <source media="(prefers-color-scheme: light)" srcset="assets/radar-langs-light.svg">
-        <img src="assets/radar-langs-dark.svg" width="400" alt="Honest GitHub Language Bytes Radar">
+        <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/K1905-cpu/K1905-cpu/main/assets/radar-langs-dark.svg">
+        <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/K1905-cpu/K1905-cpu/main/assets/radar-langs-light.svg">
+        <img src="https://raw.githubusercontent.com/K1905-cpu/K1905-cpu/main/assets/radar-langs-dark.svg" width="400" alt="Honest GitHub Language Bytes Radar">
       </picture>
     </td>
   </tr>
@@ -76,9 +76,9 @@ Hi, I'm **Kalp Shah**. A 3rd-year B.Tech IT student at Birla Vishvakarma Mahavid
 
 <div align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/K1905-cpu/kalpshah/output/snake-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/K1905-cpu/kalpshah/output/snake-light.svg">
-    <img src="https://raw.githubusercontent.com/K1905-cpu/kalpshah/output/snake-dark.svg" width="100%" alt="Contribution Snake Graph">
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/K1905-cpu/K1905-cpu/output/snake-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/K1905-cpu/K1905-cpu/output/snake-light.svg">
+    <img src="https://raw.githubusercontent.com/K1905-cpu/K1905-cpu/output/snake-dark.svg" width="100%" alt="Contribution Snake Graph">
   </picture>
 </div>
 
@@ -86,9 +86,9 @@ Hi, I'm **Kalp Shah**. A 3rd-year B.Tech IT student at Birla Vishvakarma Mahavid
 
 <div align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="assets/card-stats-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="assets/card-stats-light.svg">
-    <img src="assets/card-stats-dark.svg" width="100%" alt="Activity Overview Card">
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/K1905-cpu/K1905-cpu/main/assets/card-stats-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/K1905-cpu/K1905-cpu/main/assets/card-stats-light.svg">
+    <img src="https://raw.githubusercontent.com/K1905-cpu/K1905-cpu/main/assets/card-stats-dark.svg" width="100%" alt="Activity Overview Card">
   </picture>
 </div>
 
@@ -99,40 +99,40 @@ Hi, I'm **Kalp Shah**. A 3rd-year B.Tech IT student at Birla Vishvakarma Mahavid
 <table>
   <tr>
     <td width="50%" align="center">
-      <a href="https://github.com/kalpshah/SmartStudentHub">
+      <a href="https://github.com/K1905-cpu/SmartStudentHub">
         <picture>
-          <source media="(prefers-color-scheme: dark)" srcset="assets/card-smartstudenthub-dark.svg">
-          <source media="(prefers-color-scheme: light)" srcset="assets/card-smartstudenthub-light.svg">
-          <img src="assets/card-smartstudenthub-dark.svg" width="420" alt="SmartStudentHub Project Card">
+          <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/K1905-cpu/K1905-cpu/main/assets/card-smartstudenthub-dark.svg">
+          <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/K1905-cpu/K1905-cpu/main/assets/card-smartstudenthub-light.svg">
+          <img src="https://raw.githubusercontent.com/K1905-cpu/K1905-cpu/main/assets/card-smartstudenthub-dark.svg" width="420" alt="SmartStudentHub Project Card">
         </picture>
       </a>
     </td>
     <td width="50%" align="center">
-      <a href="https://github.com/kalpshah/ECommerce-PHP">
+      <a href="https://github.com/K1905-cpu/ECommerce-PHP">
         <picture>
-          <source media="(prefers-color-scheme: dark)" srcset="assets/card-ecommerce-php-dark.svg">
-          <source media="(prefers-color-scheme: light)" srcset="assets/card-ecommerce-php-light.svg">
-          <img src="assets/card-ecommerce-php-dark.svg" width="420" alt="ECommerce-PHP Project Card">
+          <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/K1905-cpu/K1905-cpu/main/assets/card-ecommerce-php-dark.svg">
+          <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/K1905-cpu/K1905-cpu/main/assets/card-ecommerce-php-light.svg">
+          <img src="https://raw.githubusercontent.com/K1905-cpu/K1905-cpu/main/assets/card-ecommerce-php-dark.svg" width="420" alt="ECommerce-PHP Project Card">
         </picture>
       </a>
     </td>
   </tr>
   <tr>
     <td width="50%" align="center">
-      <a href="https://github.com/kalpshah/abcdp">
+      <a href="https://github.com/K1905-cpu/abcdp">
         <picture>
-          <source media="(prefers-color-scheme: dark)" srcset="assets/card-abcdp-dark.svg">
-          <source media="(prefers-color-scheme: light)" srcset="assets/card-abcdp-light.svg">
-          <img src="assets/card-abcdp-dark.svg" width="420" alt="abcdp Portfolio Project Card">
+          <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/K1905-cpu/K1905-cpu/main/assets/card-abcdp-dark.svg">
+          <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/K1905-cpu/K1905-cpu/main/assets/card-abcdp-light.svg">
+          <img src="https://raw.githubusercontent.com/K1905-cpu/K1905-cpu/main/assets/card-abcdp-dark.svg" width="420" alt="abcdp Portfolio Project Card">
         </picture>
       </a>
     </td>
     <td width="50%" align="center">
-      <a href="https://github.com/kalpshah/LeetCode-Sync">
+      <a href="https://github.com/K1905-cpu/LeetCode-Sync">
         <picture>
-          <source media="(prefers-color-scheme: dark)" srcset="assets/card-leetcode-sync-dark.svg">
-          <source media="(prefers-color-scheme: light)" srcset="assets/card-leetcode-sync-light.svg">
-          <img src="assets/card-leetcode-sync-dark.svg" width="420" alt="LeetCode-Sync Project Card">
+          <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/K1905-cpu/K1905-cpu/main/assets/card-leetcode-sync-dark.svg">
+          <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/K1905-cpu/K1905-cpu/main/assets/card-leetcode-sync-light.svg">
+          <img src="https://raw.githubusercontent.com/K1905-cpu/K1905-cpu/main/assets/card-leetcode-sync-dark.svg" width="420" alt="LeetCode-Sync Project Card">
         </picture>
       </a>
     </td>
@@ -143,10 +143,10 @@ Hi, I'm **Kalp Shah**. A 3rd-year B.Tech IT student at Birla Vishvakarma Mahavid
   
 | Project | Tech Stack | Description |
 | :--- | :--- | :--- |
-| **[SmartStudentHub](https://github.com/kalpshah/SmartStudentHub)** | PHP • MySQL • JS • HTML/CSS | Digital academic platform & resource hub |
-| **[ECommerce-PHP](https://github.com/kalpshah/ECommerce-PHP)** | PHP • MySQL • Web UI | Full-stack online storefront & cart system |
-| **[abcdp Portfolio](https://github.com/kalpshah/abcdp)** | React • TypeScript • Vite | Interactive personal developer portfolio |
-| **[LeetCode-Sync](https://github.com/kalpshah/LeetCode-Sync)** | Python • GitHub Actions | Automated LeetCode submission sync |
+| **[SmartStudentHub](https://github.com/K1905-cpu/SmartStudentHub)** | PHP • MySQL • JS • HTML/CSS | Digital academic platform & resource hub |
+| **[ECommerce-PHP](https://github.com/K1905-cpu/ECommerce-PHP)** | PHP • MySQL • Web UI | Full-stack online storefront & cart system |
+| **[abcdp Portfolio](https://github.com/K1905-cpu/abcdp)** | React • TypeScript • Vite | Interactive personal developer portfolio |
+| **[LeetCode-Sync](https://github.com/K1905-cpu/LeetCode-Sync)** | Python • GitHub Actions | Automated LeetCode submission sync |
 
 </sub>
 
