@@ -14,23 +14,23 @@
   <line x1="240.0" y1="220.0" x2="240.0" y2="85.0" stroke="#30363d" stroke-width="1"/>
   <text x="240.0" y="60.0" text-anchor="middle" dominant-baseline="central" class="label">Python<tspan class="val-text"></tspan></text>
   <line x1="240.0" y1="220.0" x2="345.5" y2="135.8" stroke="#30363d" stroke-width="1"/>
-  <text x="365.1" y="120.2" text-anchor="start" dominant-baseline="central" class="label">React &amp; JS<tspan class="val-text"></tspan></text>
+  <text x="365.1" y="120.2" text-anchor="start" dominant-baseline="central" class="label">Machine Learning<tspan class="val-text"></tspan></text>
   <line x1="240.0" y1="220.0" x2="371.6" y2="250.0" stroke="#30363d" stroke-width="1"/>
-  <text x="396.0" y="255.6" text-anchor="start" dominant-baseline="central" class="label">MySQL &amp; DB<tspan class="val-text"></tspan></text>
+  <text x="396.0" y="255.6" text-anchor="start" dominant-baseline="central" class="label">Data Science<tspan class="val-text"></tspan></text>
   <line x1="240.0" y1="220.0" x2="298.6" y2="341.6" stroke="#30363d" stroke-width="1"/>
-  <text x="309.4" y="364.2" text-anchor="start" dominant-baseline="central" class="label">PHP &amp; Web<tspan class="val-text"></tspan></text>
+  <text x="309.4" y="364.2" text-anchor="start" dominant-baseline="central" class="label">PyTorch &amp; TF<tspan class="val-text"></tspan></text>
   <line x1="240.0" y1="220.0" x2="181.4" y2="341.6" stroke="#30363d" stroke-width="1"/>
-  <text x="170.6" y="364.2" text-anchor="end" dominant-baseline="central" class="label">C++ / C<tspan class="val-text"></tspan></text>
+  <text x="170.6" y="364.2" text-anchor="end" dominant-baseline="central" class="label">C++ &amp; DSA<tspan class="val-text"></tspan></text>
   <line x1="240.0" y1="220.0" x2="108.4" y2="250.0" stroke="#30363d" stroke-width="1"/>
-  <text x="84.0" y="255.6" text-anchor="end" dominant-baseline="central" class="label">Data Science<tspan class="val-text"></tspan></text>
+  <text x="84.0" y="255.6" text-anchor="end" dominant-baseline="central" class="label">React &amp; Web<tspan class="val-text"></tspan></text>
   <line x1="240.0" y1="220.0" x2="134.5" y2="135.8" stroke="#30363d" stroke-width="1"/>
-  <text x="114.9" y="120.2" text-anchor="end" dominant-baseline="central" class="label">DSA<tspan class="val-text"></tspan></text>
-  <polygon points="240.0,101.2 330.8,147.6 351.9,245.5 289.2,322.2 192.0,319.7 134.7,244.0 157.7,154.3" fill="rgba(57, 211, 83, 0.25)" stroke="#39d353" stroke-width="2.5"/>
-  <circle cx="240.0" cy="101.2" r="4" fill="#39d353" stroke="#161b22" stroke-width="1.5"/>
+  <text x="114.9" y="120.2" text-anchor="end" dominant-baseline="central" class="label">MySQL &amp; DB<tspan class="val-text"></tspan></text>
+  <polygon points="240.0,98.5 330.8,147.6 351.9,245.5 288.0,319.7 193.1,317.3 137.3,243.4 159.8,156.0" fill="rgba(57, 211, 83, 0.25)" stroke="#39d353" stroke-width="2.5"/>
+  <circle cx="240.0" cy="98.5" r="4" fill="#39d353" stroke="#161b22" stroke-width="1.5"/>
   <circle cx="330.8" cy="147.6" r="4" fill="#39d353" stroke="#161b22" stroke-width="1.5"/>
   <circle cx="351.9" cy="245.5" r="4" fill="#39d353" stroke="#161b22" stroke-width="1.5"/>
-  <circle cx="289.2" cy="322.2" r="4" fill="#39d353" stroke="#161b22" stroke-width="1.5"/>
-  <circle cx="192.0" cy="319.7" r="4" fill="#39d353" stroke="#161b22" stroke-width="1.5"/>
-  <circle cx="134.7" cy="244.0" r="4" fill="#39d353" stroke="#161b22" stroke-width="1.5"/>
-  <circle cx="157.7" cy="154.3" r="4" fill="#39d353" stroke="#161b22" stroke-width="1.5"/>
+  <circle cx="288.0" cy="319.7" r="4" fill="#39d353" stroke="#161b22" stroke-width="1.5"/>
+  <circle cx="193.1" cy="317.3" r="4" fill="#39d353" stroke="#161b22" stroke-width="1.5"/>
+  <circle cx="137.3" cy="243.4" r="4" fill="#39d353" stroke="#161b22" stroke-width="1.5"/>
+  <circle cx="159.8" cy="156.0" r="4" fill="#39d353" stroke="#161b22" stroke-width="1.5"/>
 </svg>

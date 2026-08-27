@@ -10,7 +10,7 @@
   <br>
 
   <!-- Animated Typing SVG Banner -->
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=26&duration=2600&pause=900&color=39D353&center=true&vCenter=true&width=620&lines=Kalp+Shah;Frontend+Developer;Future+AI+Engineer;Building+with+React+%26+Python;B.Tech+IT+%40+BVM+College" alt="Typing Banner">
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=26&duration=2600&pause=900&color=39D353&center=true&vCenter=true&width=650&lines=Kalp+Shah;AI+%26+ML+Developer;Data+Science+%26+Analytics;Building+Intelligent+ML+Systems;B.Tech+IT+%40+BVM+College" alt="Typing Banner">
 
   <br><br>
 
@@ -30,11 +30,12 @@
 $ cat about.txt
 ```
 
-Hi, I'm **Kalp Shah**. A 3rd-year B.Tech IT student at Birla Vishvakarma Mahavidyalaya (BVM) passionate about building high-performance web applications and intelligent AI tools.
+Hi, I'm **Kalp Shah**. A 3rd-year B.Tech IT student at Birla Vishvakarma Mahavidyalaya (BVM) specializing in **Artificial Intelligence, Machine Learning & Data Science**, passionate about building intelligent ML pipelines, predictive analytics models, and smart automated systems.
 
-- 🔭 Currently building **[Smart Student Hub](https://github.com/K1905-cpu/SmartStudentHub)** (SIH Hackathon solution) & modern React experiences.
+- 🤖 Aspiring **AI / Machine Learning Engineer** focused on PyTorch, TensorFlow, Computer Vision & NLP.
+- 🔭 Currently building **[Smart Student Hub](https://github.com/K1905-cpu/SmartStudentHub)** & intelligent predictive ML solutions.
 - 🎓 Academic Standing: **3rd Year B.Tech IT** (CPI: 7.81 | Recent Sem SPI: 8.36).
-- ⚡ Deepening skills in **Data Science & ML (Python, Pandas, NumPy)** and **Prompt Engineering (GitHub Copilot)**.
+- ⚡ Deepening skills in **Data Science & ML (Python, Pandas, NumPy, Scikit-Learn)** & Algorithmic Problem Solving.
 - 🏆 Fun fact: **Goalkeeper & Football Tournament Champion (Jan 2026)**.
 
 <br>
@@ -42,7 +43,7 @@ Hi, I'm **Kalp Shah**. A 3rd-year B.Tech IT student at Birla Vishvakarma Mahavid
 ## 🛠️ Toolbox
 
 <div align="center">
-  <img src="https://skillicons.dev/icons?i=python,cpp,c,js,ts,react,html,css,php,mysql,postgres,git,github,vscode&perline=14" alt="Toolbox Strip">
+  <img src="https://skillicons.dev/icons?i=py,pytorch,tensorflow,sklearn,opencv,cpp,c,mysql,postgres,mongodb,js,ts,react,git,github,vscode,linux&perline=17" alt="Toolbox Strip">
 </div>
 
 <br>
