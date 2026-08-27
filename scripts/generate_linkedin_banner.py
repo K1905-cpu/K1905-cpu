@@ -1,120 +1,172 @@
 import os
 import math
-from PIL import Image, ImageDraw, ImageFont, ImageFilter
+from PIL import Image, ImageDraw, ImageFont
+
+def draw_linkedin_icon(draw, x, y, size=26):
+    # LinkedIn Blue Box #0A66C2
+    draw.rounded_rectangle([x, y, x + size, y + size], radius=5, fill="#0A66C2")
+    # White "in"
+    # 'i' dot
+    draw.ellipse([x + 6, y + 6, x + 9, y + 9], fill="#FFFFFF")
+    # 'i' stem
+    draw.rectangle([x + 6, y + 11, x + 9, y + 20], fill="#FFFFFF")
+    # 'n' stem
+    draw.rectangle([x + 12, y + 11, x + 15, y + 20], fill="#FFFFFF")
+    # 'n' arch & right stem
+    draw.rectangle([x + 15, y + 11, x + 19, y + 14], fill="#FFFFFF")
+    draw.rectangle([x + 17, y + 13, x + 20, y + 20], fill="#FFFFFF")
+
+def draw_leetcode_icon(draw, x, y, size=26):
+    # LeetCode Orange Box #FFA116
+    draw.rounded_rectangle([x, y, x + size, y + size], radius=5, fill="#FFA116")
+    # White brackets / L symbol
+    draw.line([(x + 7, y + 7), (x + 13, y + 13), (x + 7, y + 19)], fill="#FFFFFF", width=3)
+    draw.line([(x + 12, y + 19), (x + 19, y + 19)], fill="#FFFFFF", width=3)
+
+def draw_github_icon(draw, x, y, size=26):
+    # GitHub Purple/Dark Circle #6e5494
+    cx, cy = x + size // 2, y + size // 2
+    r = size // 2
+    draw.ellipse([x, y, x + size, y + size], fill="#6e5494")
+    
+    # Octocat Silhouette Head & Ears
+    head_r = 7
+    draw.ellipse([cx - head_r, cy - head_r + 1, cx + head_r, cy + head_r + 1], fill="#FFFFFF")
+    # Left Ear
+    draw.polygon([(cx - 7, cy - 2), (cx - 7, cy - 9), (cx - 1, cy - 5)], fill="#FFFFFF")
+    # Right Ear
+    draw.polygon([(cx + 7, cy - 2), (cx + 7, cy - 9), (cx + 1, cy - 5)], fill="#FFFFFF")
+    # Body/Bust
+    draw.polygon([(cx - 8, cy + 12), (cx - 4, cy + 4), (cx + 4, cy + 4), (cx + 8, cy + 12)], fill="#FFFFFF")
+
+def draw_mail_icon(draw, x, y, size=26):
+    # Mail Envelope (White outline on dark circle or transparent)
+    # Envelope Box
+    ex, ey = x + 2, y + 5
+    ew, eh = size - 4, size - 10
+    draw.rounded_rectangle([ex, ey, ex + ew, ey + eh], radius=3, outline="#FFFFFF", width=2)
+    # Envelope Flap V-Line
+    draw.line([(ex + 2, ey + 2), (ex + ew // 2, ey + eh // 2 + 1), (ex + ew - 2, ey + 2)], fill="#FFFFFF", width=2)
 
 def create_linkedin_banner(output_path="linkedin-banner.png"):
-    # Standard LinkedIn Background Banner dimensions
     width = 1584
     height = 396
     
-    # Create image with dark gradient background
-    img = Image.new("RGBA", (width, height), (13, 17, 23, 255))
+    # Background: Smooth dark gradient (#0a0d12 to #161b22)
+    img = Image.new("RGBA", (width, height), (10, 13, 18, 255))
     draw = ImageDraw.Draw(img)
     
-    # 1. Draw subtle background gradient (Dark Charcoal #0D1117 to #161B22 to #05070A)
     for y in range(height):
-        # horizontal gradient shift across x and y
         ratio_y = y / height
         for x in range(width):
             ratio_x = x / width
-            # radial/subtle glow on right center
             dist_right = math.sqrt((x - width * 0.75)**2 + (y - height * 0.5)**2)
-            glow = max(0, 1 - dist_right / 600)
+            glow = max(0, 1 - dist_right / 550)
             
-            r = int(10 + glow * 15 + ratio_x * 12)
-            g = int(13 + glow * 25 + ratio_x * 15)
-            b = int(18 + glow * 20 + ratio_x * 18)
+            r = int(10 + glow * 18 + ratio_x * 12)
+            g = int(13 + glow * 24 + ratio_x * 14)
+            b = int(18 + glow * 22 + ratio_x * 16)
             img.putpixel((x, y), (r, g, b, 255))
             
     draw = ImageDraw.Draw(img)
     
-    # 2. Add subtle accent lines / grid glow
-    accent_color = (57, 211, 83, 40) # #39d353 with alpha
-    
-    # Load fonts (fallback to default or system sans-serif fonts)
-    font_name_size = 54
-    font_tagline_size = 22
-    font_handle_size = 18
-    
+    # Fonts
     try:
-        font_name = ImageFont.truetype("arialbd.ttf", font_name_size)
-        font_tagline = ImageFont.truetype("arial.ttf", font_tagline_size)
-        font_handle = ImageFont.truetype("arial.ttf", font_handle_size)
-        font_bold_handle = ImageFont.truetype("arialbd.ttf", font_handle_size)
+        font_name = ImageFont.truetype("arialbd.ttf", 54)
+        font_tagline = ImageFont.truetype("arial.ttf", 22)
+        font_handle = ImageFont.truetype("arial.ttf", 18)
     except IOError:
         font_name = ImageFont.load_default()
         font_tagline = ImageFont.load_default()
         font_handle = ImageFont.load_default()
-        font_bold_handle = ImageFont.load_default()
 
-    # 3. Draw Social Handles Bar at Top Right (x starting ~650 to 1500)
+    # 1. TOP RIGHT SOCIAL HANDLES BAR
     handles = [
-        {"icon_type": "linkedin", "label": "Kalp Shah", "color": "#0A66C2"},
-        {"icon_type": "leetcode", "label": "b0e6CDjMKO", "color": "#FFA116"},
-        {"icon_type": "github", "label": "K1905-cpu", "color": "#FFFFFF"},
-        {"icon_type": "email", "label": "shahkalp0303@gmail.com", "color": "#EA4335"}
+        {"type": "linkedin", "text": "Kalp Shah"},
+        {"type": "leetcode", "text": "Kalp Shah"},
+        {"type": "github", "text": "K1905-cpu"},
+        {"type": "email", "text": "shahkalp0303@gmail.com"}
     ]
     
-    start_x = 520
-    start_y = 45
-    spacing = 260
+    # Calculate widths for smooth horizontal placement on right
+    handle_items = []
+    icon_size = 26
+    gap = 8
+    margin_between = 35
     
-    for i, item in enumerate(handles):
-        hx = start_x + i * spacing
-        hy = start_y
+    total_bar_width = 0
+    for h in handles:
+        tb = font_handle.getbbox(h["text"])
+        tw = tb[2] - tb[0]
+        item_w = icon_size + gap + tw
+        handle_items.append((h, item_w))
+        total_bar_width += item_w + margin_between
         
-        # Draw Icon Placeholder / Custom Vector Icon
-        icon_color = item["color"]
-        
-        # Draw simple stylized icon badge
-        if item["icon_type"] == "linkedin":
-            # LinkedIn "in" box
-            draw.rounded_rectangle([hx, hy, hx + 24, hy + 24], radius=4, fill="#0A66C2")
-            draw.text((hx + 5, hy + 2), "in", fill="#FFFFFF", font=font_bold_handle)
-        elif item["icon_type"] == "leetcode":
-            # LeetCode 'k/L' box
-            draw.rounded_rectangle([hx, hy, hx + 24, hy + 24], radius=4, fill="#FFA116")
-            draw.text((hx + 7, hy + 2), "L", fill="#000000", font=font_bold_handle)
-        elif item["icon_type"] == "github":
-            # GitHub Octocat circle
-            draw.ellipse([hx, hy, hx + 24, hy + 24], fill="#24292F", outline="#FFFFFF", width=1)
-            draw.text((hx + 6, hy + 2), "G", fill="#FFFFFF", font=font_bold_handle)
-        elif item["icon_type"] == "email":
-            # Email envelope box
-            draw.rounded_rectangle([hx, hy, hx + 24, hy + 24], radius=4, fill="#EA4335")
-            draw.text((hx + 5, hy + 2), "@", fill="#FFFFFF", font=font_bold_handle)
+    total_bar_width -= margin_between # remove last margin
+    
+    # Start X so bar ends around x = 1520
+    start_bar_x = max(450, 1530 - total_bar_width)
+    curr_x = start_bar_x
+    bar_y = 42
+    
+    for h, item_w in handle_items:
+        # Draw Icon
+        if h["type"] == "linkedin":
+            draw_linkedin_icon(draw, curr_x, bar_y, icon_size)
+        elif h["type"] == "leetcode":
+            draw_leetcode_icon(draw, curr_x, bar_y, icon_size)
+        elif h["type"] == "github":
+            draw_github_icon(draw, curr_x, bar_y, icon_size)
+        elif h["type"] == "email":
+            draw_mail_icon(draw, curr_x, bar_y, icon_size)
             
-        # Draw text handle
-        draw.text((hx + 32, hy + 3), item["label"], fill="#E6EDF3", font=font_handle)
+        # Draw Text
+        text_x = curr_x + icon_size + gap
+        draw.text((text_x, bar_y + 3), h["text"], fill="#E6EDF3", font=font_handle)
+        
+        curr_x += item_w + margin_between
 
-    # 4. Draw Main Name Section (Bottom Right alignment like reference image)
-    # Reference image: "SHRIL CARPENTER" in bold cream/gold text, underlined with subtle rule, then tagline
+    # 2. MAIN NAME & ALIGNED TAGLINE SECTION (RIGHT ALIGNED / CENTERED RELATIVE TO KALP SHAH)
     name_text = "KALP SHAH"
-    tagline_text = "AI & ML Developer  •  Data Science  •  Intelligent Systems"
+    tagline_text = "Data Driven. Curious. Creative."
     
-    name_x = 1040
-    name_y = 195
+    # Calculate bounding boxes for exact alignment
+    name_bbox = font_name.getbbox(name_text)
+    name_width = name_bbox[2] - name_bbox[0]
+    name_height = name_bbox[3] - name_bbox[1]
     
-    # Cream / Gold accent color matching reference screenshot (#F5E0A3 / #E2C582 / #39D353)
-    title_color = "#F3E4B8"
-    rule_color = "#4D4637"
-    tagline_color = "#D2C5A5"
+    tagline_bbox = font_tagline.getbbox(tagline_text)
+    tagline_width = tagline_bbox[2] - tagline_bbox[0]
     
-    # Draw Name (Bold Cream/Gold)
+    # Position KALP SHAH on the right (center of name block around x = 1200)
+    center_x = 1200
+    name_x = center_x - (name_width // 2)
+    name_y = 185
+    
+    # Colors
+    title_color = "#F5E0A3" # Cream gold
+    rule_color = "#3A3832" # Subtle rule line
+    tagline_color = "#D4C8AD" # Muted cream
+    
+    # Draw Name
     draw.text((name_x, name_y), name_text, fill=title_color, font=font_name)
     
-    # Draw Horizontal Separator Line below name
-    line_y = name_y + 75
-    line_w = 460
-    draw.line([(name_x - 30, line_y), (name_x + line_w, line_y)], fill=rule_color, width=1)
+    # Draw Separator Rule directly under KALP SHAH (matching width or slightly wider)
+    rule_y = name_y + name_height + 22
+    rule_width = max(name_width + 80, tagline_width + 40)
+    rule_left = center_x - (rule_width // 2)
+    rule_right = center_x + (rule_width // 2)
     
-    # Draw Tagline below line
-    tagline_y = line_y + 25
-    draw.text((name_x - 20, tagline_y), tagline_text, fill=tagline_color, font=font_tagline)
+    draw.line([(rule_left, rule_y), (rule_right, rule_y)], fill=rule_color, width=1)
+    
+    # Draw Tagline Centered Directly Under KALP SHAH and the Rule
+    tagline_x = center_x - (tagline_width // 2)
+    tagline_y = rule_y + 20
+    draw.text((tagline_x, tagline_y), tagline_text, fill=tagline_color, font=font_tagline)
     
     # Save Image
     img.save(output_path, "PNG")
-    print(f"Created LinkedIn Banner at {output_path}")
+    print(f"Created updated LinkedIn Banner at {output_path}")
 
 if __name__ == "__main__":
     create_linkedin_banner("linkedin-banner.png")
