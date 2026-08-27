@@ -7,7 +7,7 @@
 #>
 
 param (
-    [string]$Username = "kalpshah",
+    [string]$Username = "K1905-cpu",
     [string]$Name = "Kalp Shah",
     [string]$Image = "..\public\me.jpg",
     [switch]$Circle
