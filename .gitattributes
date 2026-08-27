@@ -1,0 +1,7 @@
+# Force LF line endings for shell scripts, python scripts, and workflows to ensure Linux compatibility
+*.sh text eol=lf
+*.py text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf
+*.ps1 text eol=crlf
+*.md text eol=lf

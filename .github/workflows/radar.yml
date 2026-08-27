@@ -1,0 +1,41 @@
+name: Refresh Radars and Cards
+
+on:
+  schedule:
+    - cron: "30 3 * * *"
+  workflow_dispatch:
+
+jobs:
+  update-assets:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install Pillow
+        run: pip install pillow
+
+      - name: Generate Self-Rated Skill Radar
+        run: python scripts/radar.py --data assets/skills.json -o assets/radar
+
+      - name: Generate GitHub Language Radar
+        run: |
+          python scripts/radar.py --github ${{ github.repository_owner }} -o assets/radar-langs \
+            --limit 7 --values --curve 0.4 --exclude "shell,html,css,makefile,dockerfile,batchfile,procfile"
+
+      - name: Generate Activity Stat Cards & Project Cards
+        run: python scripts/cards.py --user ${{ github.repository_owner }} --out assets
+
+      - name: Commit and Push Updated SVG Cards & Radars
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "chore: refresh radars and project cards [skip ci]"
+          file_pattern: "assets/*.svg"

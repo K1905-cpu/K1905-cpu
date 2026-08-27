@@ -1,0 +1,20 @@
+{
+  "projects": [
+    {
+      "repo": "SmartStudentHub",
+      "description": "Centralized SIH digital platform integrating study resources, role-based access, and student progress tracking."
+    },
+    {
+      "repo": "ECommerce-PHP",
+      "description": "Full-stack PHP & MySQL e-commerce store with dynamic product catalog, cart management, and checkout."
+    },
+    {
+      "repo": "abcdp",
+      "description": "Interactive developer portfolio built with React, Vite, and CSS glassmorphism aesthetics."
+    },
+    {
+      "repo": "LeetCode-Sync",
+      "description": "Automated workflow synchronizing LeetCode problem solutions and statistics to GitHub."
+    }
+  ]
+}

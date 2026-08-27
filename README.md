@@ -1,0 +1,157 @@
+<div align="center">
+
+  <!-- Dot Matrix Portrait -->
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/portrait-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="assets/portrait-light.svg">
+    <img src="assets/portrait-dark.svg" width="280" alt="Kalp Shah Portrait">
+  </picture>
+
+  <br>
+
+  <!-- Animated Typing SVG Banner -->
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=26&duration=2600&pause=900&color=39D353&center=true&vCenter=true&width=620&lines=Kalp+Shah;Frontend+Developer;Future+AI+Engineer;Building+with+React+%26+Python;B.Tech+IT+%40+BVM+College" alt="Typing Banner">
+
+  <br><br>
+
+  <!-- Social Badges & View Counter -->
+  <a href="https://linkedin.com/in/kalpshah"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
+  <a href="mailto:shahkalp0303@gmail.com"><img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"></a>
+  <a href="https://github.com/kalpshah"><img src="https://img.shields.io/badge/Location-Ahmedabad%2C%20India-10B981?style=for-the-badge&logo=googlemaps&logoColor=white" alt="Location"></a>
+  <img src="https://komarev.com/ghpvc/?username=kalpshah&color=39d353&label=profile+views" alt="Profile Views">
+
+</div>
+
+<br>
+
+## `~/` whoami
+
+```console
+$ cat about.txt
+```
+
+Hi, I'm **Kalp Shah**. A 3rd-year B.Tech IT student at Birla Vishvakarma Mahavidyalaya (BVM) passionate about building high-performance web applications and intelligent AI tools.
+
+- 🔭 Currently building **[Smart Student Hub](https://github.com/kalpshah/SmartStudentHub)** (SIH Hackathon solution) & modern React experiences.
+- 🎓 Academic Standing: **3rd Year B.Tech IT** (CPI: 7.81 | Recent Sem SPI: 8.36).
+- ⚡ Deepening skills in **Data Science & ML (Python, Pandas, NumPy)** and **Prompt Engineering (GitHub Copilot)**.
+- 🏆 Fun fact: **Goalkeeper & Football Tournament Champion (Jan 2026)**.
+
+<br>
+
+## 🛠️ Toolbox
+
+<div align="center">
+  <img src="https://skillicons.dev/icons?i=python,cpp,c,js,ts,react,html,css,php,mysql,postgres,git,github,vscode&perline=14" alt="Toolbox Strip">
+</div>
+
+<br>
+
+## 📊 Skill & Language Radars
+
+<table>
+  <tr>
+    <td width="50%" align="center">
+      <b>Self-Rated Core Skills</b><br><br>
+      <picture>
+        <source media="(prefers-color-scheme: dark)" srcset="assets/radar-dark.svg">
+        <source media="(prefers-color-scheme: light)" srcset="assets/radar-light.svg">
+        <img src="assets/radar-dark.svg" width="400" alt="Self-Rated Skill Radar">
+      </picture>
+    </td>
+    <td width="50%" align="center">
+      <b>Honest Codebase Language Bytes</b><br><br>
+      <picture>
+        <source media="(prefers-color-scheme: dark)" srcset="assets/radar-langs-dark.svg">
+        <source media="(prefers-color-scheme: light)" srcset="assets/radar-langs-light.svg">
+        <img src="assets/radar-langs-dark.svg" width="400" alt="Honest GitHub Language Bytes Radar">
+      </picture>
+    </td>
+  </tr>
+</table>
+
+<br>
+
+## 🐍 Contribution Graph & Activity
+
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/kalpshah/kalpshah/output/snake-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/kalpshah/kalpshah/output/snake-light.svg">
+    <img src="https://raw.githubusercontent.com/kalpshah/kalpshah/output/snake-dark.svg" width="100%" alt="Contribution Snake Graph">
+  </picture>
+</div>
+
+<br>
+
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/card-stats-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="assets/card-stats-light.svg">
+    <img src="assets/card-stats-dark.svg" width="100%" alt="Activity Overview Card">
+  </picture>
+</div>
+
+<br>
+
+## 🚀 Featured Projects
+
+<table>
+  <tr>
+    <td width="50%" align="center">
+      <a href="https://github.com/kalpshah/SmartStudentHub">
+        <picture>
+          <source media="(prefers-color-scheme: dark)" srcset="assets/card-smartstudenthub-dark.svg">
+          <source media="(prefers-color-scheme: light)" srcset="assets/card-smartstudenthub-light.svg">
+          <img src="assets/card-smartstudenthub-dark.svg" width="420" alt="SmartStudentHub Project Card">
+        </picture>
+      </a>
+    </td>
+    <td width="50%" align="center">
+      <a href="https://github.com/kalpshah/ECommerce-PHP">
+        <picture>
+          <source media="(prefers-color-scheme: dark)" srcset="assets/card-ecommerce-php-dark.svg">
+          <source media="(prefers-color-scheme: light)" srcset="assets/card-ecommerce-php-light.svg">
+          <img src="assets/card-ecommerce-php-dark.svg" width="420" alt="ECommerce-PHP Project Card">
+        </picture>
+      </a>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" align="center">
+      <a href="https://github.com/kalpshah/abcdp">
+        <picture>
+          <source media="(prefers-color-scheme: dark)" srcset="assets/card-abcdp-dark.svg">
+          <source media="(prefers-color-scheme: light)" srcset="assets/card-abcdp-light.svg">
+          <img src="assets/card-abcdp-dark.svg" width="420" alt="abcdp Portfolio Project Card">
+        </picture>
+      </a>
+    </td>
+    <td width="50%" align="center">
+      <a href="https://github.com/kalpshah/LeetCode-Sync">
+        <picture>
+          <source media="(prefers-color-scheme: dark)" srcset="assets/card-leetcode-sync-dark.svg">
+          <source media="(prefers-color-scheme: light)" srcset="assets/card-leetcode-sync-light.svg">
+          <img src="assets/card-leetcode-sync-dark.svg" width="420" alt="LeetCode-Sync Project Card">
+        </picture>
+      </a>
+    </td>
+  </tr>
+</table>
+
+<sub>
+  
+| Project | Tech Stack | Description |
+| :--- | :--- | :--- |
+| **[SmartStudentHub](https://github.com/kalpshah/SmartStudentHub)** | PHP • MySQL • JS • HTML/CSS | Digital academic platform & resource hub |
+| **[ECommerce-PHP](https://github.com/kalpshah/ECommerce-PHP)** | PHP • MySQL • Web UI | Full-stack online storefront & cart system |
+| **[abcdp Portfolio](https://github.com/kalpshah/abcdp)** | React • TypeScript • Vite | Interactive personal developer portfolio |
+| **[LeetCode-Sync](https://github.com/kalpshah/LeetCode-Sync)** | Python • GitHub Actions | Automated LeetCode submission sync |
+
+</sub>
+
+<br>
+
+<div align="center">
+  <sub>01101011 01100001 01101100 01110000 01110011 01101000 01100001 01101000</sub>
+</div>
