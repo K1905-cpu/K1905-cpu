@@ -18,7 +18,7 @@
   <a href="https://linkedin.com/in/kalpshah"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
   <a href="mailto:shahkalp0303@gmail.com"><img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"></a>
   <a href="https://github.com/kalpshah"><img src="https://img.shields.io/badge/Location-Ahmedabad%2C%20India-10B981?style=for-the-badge&logo=googlemaps&logoColor=white" alt="Location"></a>
-  <img src="https://komarev.com/ghpvc/?username=kalpshah&color=39d353&label=profile+views" alt="Profile Views">
+  <img src="https://komarev.com/ghpvc/?username=K1905-cpu&color=39d353&label=profile+views" alt="Profile Views">
 
 </div>
 
@@ -32,7 +32,7 @@ $ cat about.txt
 
 Hi, I'm **Kalp Shah**. A 3rd-year B.Tech IT student at Birla Vishvakarma Mahavidyalaya (BVM) passionate about building high-performance web applications and intelligent AI tools.
 
-- 🔭 Currently building **[Smart Student Hub](https://github.com/kalpshah/SmartStudentHub)** (SIH Hackathon solution) & modern React experiences.
+- 🔭 Currently building **[Smart Student Hub](https://github.com/K1905-cpu/SmartStudentHub)** (SIH Hackathon solution) & modern React experiences.
 - 🎓 Academic Standing: **3rd Year B.Tech IT** (CPI: 7.81 | Recent Sem SPI: 8.36).
 - ⚡ Deepening skills in **Data Science & ML (Python, Pandas, NumPy)** and **Prompt Engineering (GitHub Copilot)**.
 - 🏆 Fun fact: **Goalkeeper & Football Tournament Champion (Jan 2026)**.
@@ -76,9 +76,9 @@ Hi, I'm **Kalp Shah**. A 3rd-year B.Tech IT student at Birla Vishvakarma Mahavid
 
 <div align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/kalpshah/kalpshah/output/snake-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/kalpshah/kalpshah/output/snake-light.svg">
-    <img src="https://raw.githubusercontent.com/kalpshah/kalpshah/output/snake-dark.svg" width="100%" alt="Contribution Snake Graph">
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/K1905-cpu/kalpshah/output/snake-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/K1905-cpu/kalpshah/output/snake-light.svg">
+    <img src="https://raw.githubusercontent.com/K1905-cpu/kalpshah/output/snake-dark.svg" width="100%" alt="Contribution Snake Graph">
   </picture>
 </div>
 
