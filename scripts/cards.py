@@ -5,6 +5,7 @@ Commits static SVG cards into repo assets to prevent 503 server downtime.
 """
 
 import argparse
+import html
 import json
 import os
 import sys
@@ -90,7 +91,7 @@ def render_stat_card(username, stats, is_dark=True):
     svg.append(f'  </style>')
 
     svg.append(f'  <rect width="{width}" height="{height}" fill="{card_bg}" stroke="{card_border}" stroke-width="1" rx="10"/>')
-    svg.append(f'  <text x="24" y="34" class="title">⚡ {username}\'s Activity Overview</text>')
+    svg.append(f'  <text x="24" y="34" class="title">⚡ {html.escape(username)}\'s Activity Overview</text>')
     svg.append(f'  <line x1="24" y1="46" x2="{width-24}" y2="46" stroke="{card_border}" stroke-width="1"/>')
 
     cols_data = [
@@ -103,8 +104,8 @@ def render_stat_card(username, stats, is_dark=True):
     col_width = (width - 48) / 4
     for i, (lbl, val) in enumerate(cols_data):
         x = 24 + i * col_width + col_width / 2
-        svg.append(f'  <text x="{x}" y="80" text-anchor="middle" class="stat-num">{val}</text>')
-        svg.append(f'  <text x="{x}" y="104" text-anchor="middle" class="stat-lbl">{lbl}</text>')
+        svg.append(f'  <text x="{x}" y="80" text-anchor="middle" class="stat-num">{html.escape(val)}</text>')
+        svg.append(f'  <text x="{x}" y="104" text-anchor="middle" class="stat-lbl">{html.escape(lbl)}</text>')
 
     svg.append('</svg>')
     return '\n'.join(svg)
@@ -138,14 +139,14 @@ def render_project_card(repo_info, override_desc=None, is_dark=True):
     
     # Book / Repo Icon
     svg.append(f'  <path d="M4 1.75C4 .784 4.784 0 5.75 0h5.5c.966 0 1.75.784 1.75 1.75v12.5a.75.75 0 0 1-1.28.53L8.5 11.53l-3.22 3.25a.75.75 0 0 1-1.28-.53V1.75z" fill="{text_color}" transform="translate(20, 20) scale(0.9)"/>')
-    svg.append(f'  <text x="42" y="32" class="repo-name">{repo_info["name"]}</text>')
+    svg.append(f'  <text x="42" y="32" class="repo-name">{html.escape(repo_info["name"])}</text>')
 
     # Description (word wrapped if needed)
-    svg.append(f'  <text x="20" y="60" class="repo-desc">{desc}</text>')
+    svg.append(f'  <text x="20" y="60" class="repo-desc">{html.escape(desc)}</text>')
 
     # Language dot + Meta stats
     svg.append(f'  <circle cx="26" cy="100" r="5" fill="{accent}"/>')
-    svg.append(f'  <text x="38" y="103" class="meta-text">{lang}</text>')
+    svg.append(f'  <text x="38" y="103" class="meta-text">{html.escape(lang)}</text>')
 
     svg.append(f'  <text x="140" y="103" class="meta-text">⭐ {stars}</text>')
     svg.append(f'  <text x="200" y="103" class="meta-text">🍴 {forks}</text>')

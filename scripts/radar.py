@@ -5,6 +5,7 @@ Supports self-rated values from JSON and live byte-counts from GitHub API.
 """
 
 import argparse
+import html
 import json
 import math
 import os
@@ -136,7 +137,7 @@ def render_radar_svg(axes, title, is_dark=True, show_values=False):
 
     # Background card
     svg.append(f'  <rect width="{width}" height="{height}" fill="{card_bg}" stroke="{card_border}" stroke-width="1" rx="10"/>')
-    svg.append(f'  <text x="{width/2}" y="32" text-anchor="middle" class="title">{title}</text>')
+    svg.append(f'  <text x="{width/2}" y="32" text-anchor="middle" class="title">{html.escape(title)}</text>')
 
     # Concentric grid polygons (20%, 40%, 60%, 80%, 100%)
     for level in [0.2, 0.4, 0.6, 0.8, 1.0]:
@@ -179,7 +180,9 @@ def render_radar_svg(axes, title, is_dark=True, show_values=False):
             anchor = "end"
 
         val_suffix = f" ({axis['display_val']})" if show_values else ""
-        svg.append(f'  <text x="{lx:.1f}" y="{ly:.1f}" text-anchor="{anchor}" dominant-baseline="central" class="label">{axis["label"]}<tspan class="val-text">{val_suffix}</tspan></text>')
+        escaped_label = html.escape(str(axis["label"]))
+        escaped_suffix = html.escape(str(val_suffix))
+        svg.append(f'  <text x="{lx:.1f}" y="{ly:.1f}" text-anchor="{anchor}" dominant-baseline="central" class="label">{escaped_label}<tspan class="val-text">{escaped_suffix}</tspan></text>')
 
     # Data Polygon Fill & Stroke
     pts_data_str = " ".join(f"{x:.1f},{y:.1f}" for x, y in data_points)

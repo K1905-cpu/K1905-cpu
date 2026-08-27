@@ -5,9 +5,9 @@
     .stat-lbl { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; font-size: 12px; fill: #8b949e; }
   </style>
   <rect width="480" height="140" fill="#161b22" stroke="#30363d" stroke-width="1" rx="10"/>
-  <text x="24" y="34" class="title">⚡ kalpshah's Activity Overview</text>
+  <text x="24" y="34" class="title">⚡ K1905-cpu's Activity Overview</text>
   <line x1="24" y1="46" x2="456" y2="46" stroke="#30363d" stroke-width="1"/>
-  <text x="78.0" y="80" text-anchor="middle" class="stat-num">0</text>
+  <text x="78.0" y="80" text-anchor="middle" class="stat-num">9</text>
   <text x="78.0" y="104" text-anchor="middle" class="stat-lbl">Public Repos</text>
   <text x="186.0" y="80" text-anchor="middle" class="stat-num">0</text>
   <text x="186.0" y="104" text-anchor="middle" class="stat-lbl">Total Stars</text>

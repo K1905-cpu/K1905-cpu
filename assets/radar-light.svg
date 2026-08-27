@@ -14,11 +14,11 @@
   <line x1="240.0" y1="220.0" x2="240.0" y2="85.0" stroke="#e1e4e8" stroke-width="1"/>
   <text x="240.0" y="60.0" text-anchor="middle" dominant-baseline="central" class="label">Python<tspan class="val-text"></tspan></text>
   <line x1="240.0" y1="220.0" x2="345.5" y2="135.8" stroke="#e1e4e8" stroke-width="1"/>
-  <text x="365.1" y="120.2" text-anchor="start" dominant-baseline="central" class="label">React & JS<tspan class="val-text"></tspan></text>
+  <text x="365.1" y="120.2" text-anchor="start" dominant-baseline="central" class="label">React &amp; JS<tspan class="val-text"></tspan></text>
   <line x1="240.0" y1="220.0" x2="371.6" y2="250.0" stroke="#e1e4e8" stroke-width="1"/>
-  <text x="396.0" y="255.6" text-anchor="start" dominant-baseline="central" class="label">MySQL & DB<tspan class="val-text"></tspan></text>
+  <text x="396.0" y="255.6" text-anchor="start" dominant-baseline="central" class="label">MySQL &amp; DB<tspan class="val-text"></tspan></text>
   <line x1="240.0" y1="220.0" x2="298.6" y2="341.6" stroke="#e1e4e8" stroke-width="1"/>
-  <text x="309.4" y="364.2" text-anchor="start" dominant-baseline="central" class="label">PHP & Web<tspan class="val-text"></tspan></text>
+  <text x="309.4" y="364.2" text-anchor="start" dominant-baseline="central" class="label">PHP &amp; Web<tspan class="val-text"></tspan></text>
   <line x1="240.0" y1="220.0" x2="181.4" y2="341.6" stroke="#e1e4e8" stroke-width="1"/>
   <text x="170.6" y="364.2" text-anchor="end" dominant-baseline="central" class="label">C++ / C<tspan class="val-text"></tspan></text>
   <line x1="240.0" y1="220.0" x2="108.4" y2="250.0" stroke="#e1e4e8" stroke-width="1"/>
