@@ -18,7 +18,7 @@
   <a href="https://linkedin.com/in/kalpshah"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
   <a href="mailto:shahkalp0303@gmail.com"><img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"></a>
   <a href="https://github.com/K1905-cpu"><img src="https://img.shields.io/badge/Location-Ahmedabad%2C%20India-10B981?style=for-the-badge&logo=googlemaps&logoColor=white" alt="Location"></a>
-  <img src="https://komarev.com/ghpvc/?username=K1905-cpu&color=39d353&label=profile+views" alt="Profile Views">
+  <img src="https://komarev.com/ghpvc/?username=K1905-cpu&color=39d353&style=for-the-badge&label=PROFILE+VIEWS" alt="Profile Views">
 
 </div>
 
