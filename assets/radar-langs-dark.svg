@@ -16,15 +16,15 @@
   <line x1="240.0" y1="220.0" x2="368.4" y2="178.3" stroke="#30363d" stroke-width="1"/>
   <text x="392.2" y="170.6" text-anchor="start" dominant-baseline="central" class="label">JavaScript<tspan class="val-text"> (43KB)</tspan></text>
   <line x1="240.0" y1="220.0" x2="319.4" y2="329.2" stroke="#30363d" stroke-width="1"/>
-  <text x="334.0" y="349.4" text-anchor="start" dominant-baseline="central" class="label">Python<tspan class="val-text"> (26KB)</tspan></text>
+  <text x="334.0" y="349.4" text-anchor="start" dominant-baseline="central" class="label">Python<tspan class="val-text"> (31KB)</tspan></text>
   <line x1="240.0" y1="220.0" x2="160.6" y2="329.2" stroke="#30363d" stroke-width="1"/>
   <text x="146.0" y="349.4" text-anchor="end" dominant-baseline="central" class="label">PowerShell<tspan class="val-text"> (3KB)</tspan></text>
   <line x1="240.0" y1="220.0" x2="111.6" y2="178.3" stroke="#30363d" stroke-width="1"/>
   <text x="87.8" y="170.6" text-anchor="end" dominant-baseline="central" class="label">C++<tspan class="val-text"> (1KB)</tspan></text>
-  <polygon points="240.0,85.0 297.8,201.2 268.6,259.3 228.9,235.3 227.2,215.8" fill="rgba(57, 211, 83, 0.25)" stroke="#39d353" stroke-width="2.5"/>
+  <polygon points="240.0,85.0 297.8,201.2 270.9,262.6 228.9,235.3 227.2,215.8" fill="rgba(57, 211, 83, 0.25)" stroke="#39d353" stroke-width="2.5"/>
   <circle cx="240.0" cy="85.0" r="4" fill="#39d353" stroke="#161b22" stroke-width="1.5"/>
   <circle cx="297.8" cy="201.2" r="4" fill="#39d353" stroke="#161b22" stroke-width="1.5"/>
-  <circle cx="268.6" cy="259.3" r="4" fill="#39d353" stroke="#161b22" stroke-width="1.5"/>
+  <circle cx="270.9" cy="262.6" r="4" fill="#39d353" stroke="#161b22" stroke-width="1.5"/>
   <circle cx="228.9" cy="235.3" r="4" fill="#39d353" stroke="#161b22" stroke-width="1.5"/>
   <circle cx="227.2" cy="215.8" r="4" fill="#39d353" stroke="#161b22" stroke-width="1.5"/>
 </svg>
