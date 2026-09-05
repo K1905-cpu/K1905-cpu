@@ -7,7 +7,7 @@
   <rect width="480" height="140" fill="#f6f8fa" stroke="#d0d7de" stroke-width="1" rx="10"/>
   <text x="24" y="34" class="title">⚡ K1905-cpu's Activity Overview</text>
   <line x1="24" y1="46" x2="456" y2="46" stroke="#d0d7de" stroke-width="1"/>
-  <text x="78.0" y="80" text-anchor="middle" class="stat-num">10</text>
+  <text x="78.0" y="80" text-anchor="middle" class="stat-num">11</text>
   <text x="78.0" y="104" text-anchor="middle" class="stat-lbl">Public Repos</text>
   <text x="186.0" y="80" text-anchor="middle" class="stat-num">6</text>
   <text x="186.0" y="104" text-anchor="middle" class="stat-lbl">Total Stars</text>
