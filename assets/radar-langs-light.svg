@@ -14,7 +14,7 @@
   <line x1="240.0" y1="220.0" x2="240.0" y2="85.0" stroke="#e1e4e8" stroke-width="1"/>
   <text x="240.0" y="60.0" text-anchor="middle" dominant-baseline="central" class="label">TypeScript<tspan class="val-text"> (316KB)</tspan></text>
   <line x1="240.0" y1="220.0" x2="375.0" y2="220.0" stroke="#e1e4e8" stroke-width="1"/>
-  <text x="400.0" y="220.0" text-anchor="start" dominant-baseline="central" class="label">JavaScript<tspan class="val-text"> (196KB)</tspan></text>
+  <text x="400.0" y="220.0" text-anchor="start" dominant-baseline="central" class="label">JavaScript<tspan class="val-text"> (197KB)</tspan></text>
   <line x1="240.0" y1="220.0" x2="240.0" y2="355.0" stroke="#e1e4e8" stroke-width="1"/>
   <text x="240.0" y="380.0" text-anchor="middle" dominant-baseline="central" class="label">Python<tspan class="val-text"> (74KB)</tspan></text>
   <line x1="240.0" y1="220.0" x2="105.0" y2="220.0" stroke="#e1e4e8" stroke-width="1"/>
