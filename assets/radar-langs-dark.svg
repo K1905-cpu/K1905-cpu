@@ -14,14 +14,14 @@
   <line x1="240.0" y1="220.0" x2="240.0" y2="85.0" stroke="#30363d" stroke-width="1"/>
   <text x="240.0" y="60.0" text-anchor="middle" dominant-baseline="central" class="label">TypeScript<tspan class="val-text"> (316KB)</tspan></text>
   <line x1="240.0" y1="220.0" x2="375.0" y2="220.0" stroke="#30363d" stroke-width="1"/>
-  <text x="400.0" y="220.0" text-anchor="start" dominant-baseline="central" class="label">JavaScript<tspan class="val-text"> (197KB)</tspan></text>
+  <text x="400.0" y="220.0" text-anchor="start" dominant-baseline="central" class="label">JavaScript<tspan class="val-text"> (275KB)</tspan></text>
   <line x1="240.0" y1="220.0" x2="240.0" y2="355.0" stroke="#30363d" stroke-width="1"/>
   <text x="240.0" y="380.0" text-anchor="middle" dominant-baseline="central" class="label">Python<tspan class="val-text"> (74KB)</tspan></text>
   <line x1="240.0" y1="220.0" x2="105.0" y2="220.0" stroke="#30363d" stroke-width="1"/>
   <text x="80.0" y="220.0" text-anchor="end" dominant-baseline="central" class="label">PowerShell<tspan class="val-text"> (3KB)</tspan></text>
-  <polygon points="240.0,85.0 350.7,220.0 240.0,294.2 221.1,220.0" fill="rgba(57, 211, 83, 0.25)" stroke="#39d353" stroke-width="2.5"/>
+  <polygon points="240.0,85.0 366.9,220.0 240.0,294.2 221.1,220.0" fill="rgba(57, 211, 83, 0.25)" stroke="#39d353" stroke-width="2.5"/>
   <circle cx="240.0" cy="85.0" r="4" fill="#39d353" stroke="#161b22" stroke-width="1.5"/>
-  <circle cx="350.7" cy="220.0" r="4" fill="#39d353" stroke="#161b22" stroke-width="1.5"/>
+  <circle cx="366.9" cy="220.0" r="4" fill="#39d353" stroke="#161b22" stroke-width="1.5"/>
   <circle cx="240.0" cy="294.2" r="4" fill="#39d353" stroke="#161b22" stroke-width="1.5"/>
   <circle cx="221.1" cy="220.0" r="4" fill="#39d353" stroke="#161b22" stroke-width="1.5"/>
 </svg>
